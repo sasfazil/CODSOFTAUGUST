@@ -23,7 +23,7 @@ def main():
     computer_score = 0
     while True:
         print("\nYour Current Score: {} | Computers Score: {}".format(user_score,computer_score))
-        print("\nChoose from below:")
+        print("\nChoose from below: ")
         print("1.Rock")
         print("2.Paper")
         print("3.Scissors")
