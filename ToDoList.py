@@ -33,12 +33,13 @@ class ToDoList:
                 print("Give The proper index")
         else:
             print("No tasks are present in the To Do List to modify")
+     
     
     
 def main():
     to_do_list = ToDoList()
     while True:
-        print("\nTo Do List:\n")
+        print("\n{}\nTo Do List: \n{}\n".format("-"*10,"-"*10))
         print("1.Add task")
         print("2.View Tasks")
         print("3.Update Tasks")
@@ -57,6 +58,7 @@ def main():
             to_do_list.update_task(modify_tasks)
         elif person_input == "4":
             print("Quitting from To Do List....")
+            break
         else:
             print("Enter a valid input")
         
