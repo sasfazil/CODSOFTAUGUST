@@ -57,7 +57,7 @@ def main():
             modify_tasks = int(input("Which task you want to update: "))
             to_do_list.update_task(modify_tasks)
         elif person_input == "4":
-            print("Quitting from To Do List....")
+            print("Quitting from To Do List...")
             break
         else:
             print("Enter a valid input")
