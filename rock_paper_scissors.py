@@ -32,7 +32,7 @@ def main():
             computer_guess = start_game()
             result = comparision(user_input,computer_guess)
             print("\nYou have Choosen : {} | Computer Choosen : {}\n".format(user_input,computer_guess))
-            print(result)
+            print("{}\n{}\n{}".format("-"*(len(result)),result,"-"*(len(result))))
         else:
             print("Enter the proper value")
         if "Computer" in result:

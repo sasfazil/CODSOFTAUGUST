@@ -58,10 +58,10 @@ class contact_book:
 def main():
     phone_contacts = contact_book()
     while True:
-        print("-------------\nContacts Book Menu:\n-------------")
+        print("{}\nContacts Book Menu:\n{}".format("-"*18,"-"*18))
         print("\n1. Add Contact\n2. View Contact\n3. Search Contact\n4. Update Contact\n5. Delete Contact\n6. Quit")
         selected_option = input("Select an option: ")
-        print("-----------------")
+        print("{}".format("-"*17))
         if selected_option == "1":
             name = input("Enter name: ")
             phone_number = int(input("Enter Ph.No: "))
