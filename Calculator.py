@@ -19,6 +19,7 @@ def power(m,n):
     return m ** n
     
 def main():
+    print("Basic Calculator")
     while True:
         print("\nChoose the below operation")
         print("1.Addition")
