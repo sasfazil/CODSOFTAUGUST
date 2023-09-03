@@ -73,7 +73,7 @@ def main():
             phone_contacts.view_contact()
         
         elif selected_option == "3":
-            search_this = input("Enter contact number: ")
+            search_this = input("Enter contact number ")
             phone_contacts.search_contacts(search_this)
             
         elif selected_option == "4":
