@@ -20,7 +20,7 @@ def password_generator(length,complexity):
     
     return password
 
-print("Random Password Generator!")
+print("{}\nPassword Generator!\n{}".format("-"*19,"-"*19))
 
 try:
     length = int(input("Enter the desired length of the password: "))
