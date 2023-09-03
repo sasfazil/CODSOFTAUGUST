@@ -29,7 +29,7 @@ def main():
         print("5.Remainder")
         print("6.power")
         
-        option_choosing = input("Select the operations: ")
+        option_choosing = input("Select the operations:  ")
         
         a = float(input("First Input: "))
         b = float(input("Secound Input: "))
